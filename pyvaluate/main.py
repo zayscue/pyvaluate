@@ -63,4 +63,4 @@ if __name__ == "__main__":
     import uvicorn
 
     reload = "--reload" in sys.argv
-    uvicorn.run("main:app", host="0.0.0.0", port=8080, reload=reload)
+    uvicorn.run("main:app", host="0.0.0.0", port=8081, reload=reload)
