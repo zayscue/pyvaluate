@@ -20,7 +20,7 @@ class CowSayMessanger:
         message = ""
         if "message" in kwargs:
             message = kwargs["message"]
-        return cowsay.get_output_string("cow", message)
+        return cowsay.get_output_string("trex", message)
 
 
 di[Messanger] = CowSayMessanger()
