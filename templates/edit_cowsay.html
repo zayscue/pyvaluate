@@ -1,6 +1,6 @@
-<form hx-put="/message" hx-target="this" hx-swap="outerHTML" hx-trigger="click #submitBtn">
+<form id="messageForm">
   <div class="form-group">
     <fluent-text-field id="message" type="text" name="message" appearance="outline" placeholder="">Message</fluent-text-field>
   </div>
-  <fluent-button id="submitBtn">Submit</fluent-button>
+  <fluent-button hx-put="/message" hx-target="#messageForm" id="submitBtn">Submit</fluent-button>
 </form>
